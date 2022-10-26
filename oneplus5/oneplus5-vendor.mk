@@ -20,8 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/lib/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcdsprpc_system.so \
     vendor/oneplus/oneplus5/proprietary/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdsprpc_system.so \
     vendor/oneplus/oneplus5/proprietary/lib/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdsprpc_system.so \
-    vendor/oneplus/oneplus5/proprietary/lib/libsensor1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensor1.so \
-    vendor/oneplus/oneplus5/proprietary/lib/libsensor_reg_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensor_reg_system.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/fingerprint.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8998.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
@@ -29,8 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/lib64/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcdsprpc_system.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdsprpc_system.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdsprpc_system.so \
-    vendor/oneplus/oneplus5/proprietary/lib64/libsensor1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor1.so \
-    vendor/oneplus/oneplus5/proprietary/lib64/libsensor_reg_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_reg_system.so \
     vendor/oneplus/oneplus5/proprietary/product/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/oneplus/oneplus5/proprietary/product/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/oneplus/oneplus5/proprietary/product/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.esepowermanager@1.0.so \
@@ -189,7 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/oneplus5_vstab_db_4k_video_0_30fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/oneplus5_vstab_db_4k_video_0_30fps.config \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/oneplus5_vstab_db_720p_video_0_30fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/oneplus5_vstab_db_720p_video_0_30fps.config \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/oneplus5_vstab_db_720p_video_1_30fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/oneplus5_vstab_db_720p_video_1_30fps.config \
-    vendor/oneplus/oneplus5/proprietary/product/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/qdcm_calib_data_samsung_s6e3fa5_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_s6e3fa5_1080p_cmd_mode_dsi_panel.xml \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_s6e3fa6_1080p_cmd_mode_dsi_panel.xml \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
@@ -955,6 +950,5 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     PowerOffAlarm \
-    vendor.qti.hardware.sensorscalibrate-V1.0-java \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service
